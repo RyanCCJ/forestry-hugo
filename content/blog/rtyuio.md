@@ -3,7 +3,6 @@ author = "標題"
 categories = ["登山"]
 date = ""
 description = ""
-draft = true
 featured = ""
 featuredalt = ""
 featuredpath = ""
