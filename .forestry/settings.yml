@@ -8,7 +8,7 @@ sections:
   label: Test1
 - type: directory
   path: content/about
-  label: 簡介
+  label: 法規
   create: all
   match: "**/*"
 - type: heading
