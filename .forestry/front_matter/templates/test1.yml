@@ -8,7 +8,7 @@ fields:
     required: true
     min: 
   label: 標題
-  description: "[紀錄] XXXX"
+  description: 例：[紀錄] XXXX
   hidden: false
 - name: date
   type: datetime
@@ -27,8 +27,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: 簡短敘述
-  description: 簡短描述這支隊伍
+  label: 簡述
+  description: 這裡的文字會顯示在預覽畫面中...
 - name: categories
   type: select
   default: []
