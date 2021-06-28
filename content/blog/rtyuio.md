@@ -9,7 +9,7 @@ featuredpath = ""
 linktitle = ""
 tags = ["中南部"]
 title = "Test"
-type = ""
+type = "post"
 
 +++
 tyuifghjk
