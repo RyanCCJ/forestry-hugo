@@ -8,7 +8,7 @@ fields:
     required: true
     min: 
   label: 標題
-  description: 例：[紀錄] XXXX
+  description: "<em>例：[紀錄] XXXX</em>"
   hidden: false
 - name: date
   type: datetime
@@ -28,7 +28,7 @@ fields:
     schema:
       format: markdown
   label: 簡述
-  description: 這裡的文字會顯示在預覽畫面中...
+  description: "<em>這裡的文字會顯示在預覽畫面中...</em>"
 - name: categories
   type: select
   default: []
