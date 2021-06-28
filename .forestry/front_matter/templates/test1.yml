@@ -34,7 +34,9 @@ fields:
   default: ''
   config:
     required: false
-    options: ["登山","其他"]
+    options:
+    - 登山
+    - 其他
     source:
       type: simple
       section: ''
