@@ -21,7 +21,7 @@ sections:
 - type: directory
   path: content/blog
   label: 日記
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - test1
