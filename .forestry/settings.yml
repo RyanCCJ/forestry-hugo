@@ -23,6 +23,8 @@ sections:
   label: 日記
   create: all
   match: "**/*"
+  templates:
+  - test1
 - type: directory
   path: content/itemized
   label: 登山
