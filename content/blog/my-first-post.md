@@ -3,7 +3,6 @@ author = "RyanCCJ"
 categories = ["登山"]
 date = 2021-06-24T16:00:00Z
 description = "文章測試一"
-draft = true
 featured = ""
 featuredalt = ""
 featuredpath = ""
