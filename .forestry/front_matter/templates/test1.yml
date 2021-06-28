@@ -31,12 +31,12 @@ fields:
   description: "<em>這裡的文字會顯示在預覽畫面中...</em>"
 - name: categories
   type: select
-  default: []
+  default: ''
   config:
     required: true
     options: []
     source:
-      type: pages
+      type: simple
       section: ''
       file: 
       path: 
