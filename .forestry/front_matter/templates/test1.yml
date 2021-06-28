@@ -52,3 +52,5 @@ fields:
   label: Type
   default: post
   hidden: true
+pages:
+- content/blog/紀錄-中岩訓練.md
