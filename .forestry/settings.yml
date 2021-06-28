@@ -5,14 +5,14 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: heading
-  label: 基本設定
+  label: Test1
 - type: directory
   path: content/about
   label: 簡介
   create: all
   match: "**/*"
 - type: heading
-  label: 測試欄位二
+  label: Test2
 - type: directory
   path: content/blog
   label: 日記
