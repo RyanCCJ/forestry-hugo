@@ -23,6 +23,11 @@ sections:
   label: 登山
   create: all
   match: "**/*"
+- type: directory
+  path: content/git
+  label: 程式
+  create: all
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
