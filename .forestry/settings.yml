@@ -11,6 +11,11 @@ sections:
   label: 法規
   create: all
   match: "**/*"
+- type: directory
+  path: content/announcement
+  label: 公告
+  create: all
+  match: "**/*"
 - type: heading
   label: Test2
 - type: directory
