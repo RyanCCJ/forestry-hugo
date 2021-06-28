@@ -25,6 +25,7 @@ sections:
   match: "**/*"
   templates:
   - test1
+  - test2
 - type: directory
   path: content/itemized
   label: 登山
