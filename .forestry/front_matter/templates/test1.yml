@@ -1,4 +1,54 @@
 ---
 label: TEST1
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 
+  label: 標題
+  description: "[紀錄] XXXX"
+  hidden: false
+- name: date
+  type: datetime
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: 發佈日期
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: 簡短敘述
+  description: 簡短描述這支隊伍
+- name: categories
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: ''
+      file: 
+      path: 
+  label: 分類
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: type
+  type: text
+  config:
+    required: true
+  label: Type
+  default: post
+  hidden: true
