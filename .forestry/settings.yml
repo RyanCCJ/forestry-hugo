@@ -4,13 +4,15 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: heading
+  label: 測試欄位一
 - type: directory
   path: content/about
   label: 簡介
   create: all
   match: "**/*"
 - type: heading
-  label: 測試
+  label: 測試欄位二
 - type: directory
   path: content/blog
   label: 日記
