@@ -35,7 +35,7 @@ sections:
   match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
-front_matter_path: '/archetypes'
+front_matter_path: "/archetypes"
 use_front_matter_path: false
 file_template: ":year:/:month:/:day:/:filename:"
 build:
