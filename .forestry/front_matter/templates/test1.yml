@@ -55,4 +55,5 @@ fields:
   default: post
   hidden: true
 pages:
+- content/blog/標題測試.md
 - content/blog/紀錄-中岩訓練.md
